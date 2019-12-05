@@ -61,10 +61,21 @@ header {
   .description {
     padding: 5%;
     .description-headline {
-      font-size: $normal;
-      color: $yellow;
-      background-color: $color;
-      padding: 5px 10px;
+      @include project-headline;
+    }
+    .description-text {
+      font-size: $small;
+      color: $color;
+    }
+    .border-text {
+      padding-bottom: 5%;
+      border-bottom: 2px solid $line;
+    }
+  }
+  .recent-project {
+    padding: 0 5% 5%;
+    .recent-project-headline {
+      @include project-headline;
     }
   }
 }

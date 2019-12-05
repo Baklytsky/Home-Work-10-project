@@ -110,3 +110,9 @@
   color: $white;
   text-decoration: none;
 }
+@mixin project-headline {
+  font-size: $normal;
+  color: $yellow;
+  background-color: $color;
+  padding: 5px 10px;
+}
