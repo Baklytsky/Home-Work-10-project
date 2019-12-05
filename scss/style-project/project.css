@@ -45,6 +45,19 @@ header ul li {
       color: #FFEA00;
       background-color: #424146;
       padding: 5px 10px; }
+    .projects .description .description-text {
+      font-size: 1em;
+      color: #424146; }
+    .projects .description .border-text {
+      padding-bottom: 5%;
+      border-bottom: 2px solid #CACACA; }
+  .projects .recent-project {
+    padding: 0 5% 5%; }
+    .projects .recent-project .recent-project-headline {
+      font-size: 1.2em;
+      color: #FFEA00;
+      background-color: #424146;
+      padding: 5px 10px; }
 
 .projects .sidebar-item {
   background-color: #424146;
