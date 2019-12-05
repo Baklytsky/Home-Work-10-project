@@ -1,0 +1,248 @@
+header {
+  background-color: #F6F6F6;
+  padding: 2% 0; }
+  header .icon-three-bars {
+    color: #424146;
+    font-size: 2em; }
+
+header .navbar-toggler:active, header .navbar-toggler:focus {
+  outline: none; }
+header .active-nav {
+  background-color: #FFEA00; }
+header ul li {
+  margin: 0 10px 10px; }
+  header ul li:hover {
+    background-color: #FFEA00; }
+  header ul li a {
+    font-weight: 400;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #424146; }
+    header ul li a:hover {
+      background-color: #FFEA00; }
+
+.indent {
+  padding: 0;
+  margin: 0; }
+
+.section-headline {
+  width: 100%;
+  background: url("../../img/img-portfolio/slider_bg.jpg") no-repeat center/cover;
+  padding: 5% 0; }
+  .section-headline h2 .headline {
+    font-size: 0.7em;
+    color: #FFEA00;
+    background-color: #424146;
+    padding: 15px 166px 15px 15px; }
+
+.projects {
+  padding-top: 5%;
+  background-color: #F6F6F6; }
+  .projects .description {
+    padding: 5%; }
+    .projects .description .description-headline {
+      font-size: 1.2em;
+      color: #FFEA00;
+      background-color: #424146;
+      padding: 5px 10px; }
+
+.projects .sidebar-item {
+  background-color: #424146;
+  padding: 30px 10px 20px 30px;
+  margin-bottom: 5%; }
+.projects .sidebar-title {
+  font-size: 1em;
+  font-weight: 600;
+  color: #FFEA00;
+  padding-bottom: 5%; }
+.projects ul .arrow-list {
+  margin-bottom: 10px; }
+  .projects ul .arrow-list:before {
+    content: url("../../img/img-project/arrow.png");
+    display: flex;
+    align-items: center;
+    margin-right: 10px; }
+  .projects ul .arrow-list a {
+    font-size: 0.7em;
+    color: #FFF;
+    text-decoration: none;
+    padding: 7px 0; }
+    .projects ul .arrow-list a li {
+      display: inline; }
+.projects ul a {
+  font-size: 0.7em;
+  color: #FFF;
+  text-decoration: none; }
+.projects ul .like-text {
+  font-size: 0.7em;
+  color: #FFEA00; }
+.projects ul li {
+  margin-bottom: 10px; }
+.projects ul .image-list-post-one:before {
+  content: url("../../img/img-project/popular_post_img_1.png");
+  display: flex;
+  align-items: center;
+  margin-right: 10px; }
+.projects ul .image-list-post-two:before {
+  content: url("../../img/img-project/popular_post_img_2.png");
+  display: flex;
+  align-items: center;
+  margin-right: 10px; }
+.projects ul .image-list-post-three:before {
+  content: url("../../img/img-project/popular_post_img_3.png");
+  display: flex;
+  align-items: center;
+  margin-right: 10px; }
+.projects ul .image-list-post-four:before {
+  content: url("../../img/img-project/popular_post_img_4.png");
+  display: flex;
+  align-items: center;
+  margin-right: 10px; }
+.projects ul .image-list-post-five:before {
+  content: url("../../img/img-project/popular_post_img_5.png");
+  display: flex;
+  align-items: center;
+  margin-right: 10px; }
+.projects ul .tags-style {
+  background-color: #FFEA00;
+  margin: 1px; }
+  .projects ul .tags-style a {
+    color: #424146;
+    font-size: 0.7em;
+    padding: 2px 10px; }
+
+.footer {
+  background-color: #424146; }
+  .footer .footer-headline {
+    font-size: 1em;
+    font-weight: bold;
+    color: #FFF;
+    line-height: 1.7;
+    padding-bottom: 10px; }
+  .footer .footer-text {
+    font-size: 0.7em;
+    color: #FFF;
+    line-height: 1.7; }
+  .footer .footer-btn {
+    width: 80%;
+    color: #FFF;
+    background-color: #000;
+    border-bottom: 2px solid #FFEA00;
+    padding: 5px 10px;
+    margin-bottom: 30px; }
+  .footer .photo-stream {
+    padding: 1%; }
+  .footer .footer-center {
+    overflow: hidden; }
+  .footer ul .twitter-list:before {
+    content: "";
+    background-image: url("../../img/twitter-icon.png");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    display: block;
+    padding-right: 40px;
+    margin-top: 10px; }
+  .footer ul .twitter-list .twitter-link {
+    color: #FFEA00;
+    font-weight: bold; }
+  .footer ul .twitter-list .twitter {
+    text-decoration: none;
+    color: #FFF; }
+  .footer ul .twitter-list .days-ago {
+    color: #FFEA00;
+    font-weight: bold;
+    font-size: 0.3em; }
+  .footer .icon-style {
+    color: #FFF;
+    padding: 5px;
+    background-color: #000;
+    margin-right: 2px; }
+    .footer .icon-style:hover {
+      -webkit-filter: invert(0.8);
+      filter: invert(0.8); }
+  .footer .address-list:before {
+    content: "";
+    background-image: url("../../img/adress.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    padding-right: 40px;
+    margin-top: 10px; }
+  .footer .phone-list:before {
+    content: "";
+    background-image: url("../../img/phone.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    padding-right: 40px;
+    margin-top: 10px; }
+  .footer .mail-list:before {
+    content: "";
+    background-image: url("../../img/email.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    padding-right: 40px;
+    margin-top: 10px; }
+  .footer .mail-link {
+    color: #FFEA00;
+    font-weight: bold; }
+  .footer .form-style {
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid #FFEA00;
+    background-color: #424146; }
+  .footer .follow-btn {
+    border: none;
+    background-color: #000;
+    padding: 0; }
+    .footer .follow-btn:active, .footer .follow-btn:focus {
+      outline: none; }
+    .footer .follow-btn .icon-input {
+      font-size: 1.2em;
+      color: #FFF;
+      padding: 5px 5px 0 5px;
+      background-color: #000; }
+  .footer .footer-menu {
+    background-color: #000;
+    padding: 10px 0; }
+    .footer .footer-menu .footer-menu-title {
+      font-size: 0.7em;
+      color: #FFF;
+      line-height: 1.7; }
+      .footer .footer-menu .footer-menu-title a {
+        color: #FFF; }
+    .footer .footer-menu .footer-nav {
+      padding: 5% 0; }
+      .footer .footer-menu .footer-nav a {
+        color: #FFF;
+        font-size: 0.7em; }
+        .footer .footer-menu .footer-nav a:hover {
+          color: #FFEA00; }
+
+@media (min-width: 768px) {
+  header ul a {
+    padding: 29px 9px; }
+
+  .section-headline {
+    padding: 2% 0; }
+    .section-headline h2 .headline {
+      font-size: 1em; }
+
+  .footer .middle {
+    line-height: 1; }
+  .footer .footer-text {
+    font-size: 0.5em; }
+  .footer .days-ago {
+    font-size: 0.3em; } }
+@media (min-width: 992px) {
+  .footer .footer-text {
+    font-size: 0.7em; }
+  .footer .middle {
+    line-height: 1.7; } }
+
+/*# sourceMappingURL=project.css.map */
