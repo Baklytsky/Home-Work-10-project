@@ -13,6 +13,7 @@
 <header>
     <div class="container">
         <nav class="navbar navbar-expand-md navbar-dark">
+            <h1>
             <a class="navbar-brand" href="index.html" aria-label="logo">
                 <picture>
                     <source srcset="img/logo.webp" type="image/webp">
@@ -28,7 +29,7 @@
                 <ul class="navbar-nav ml-auto text-center">
                     <li class="nav-item"><a href="index.html">Home</a></li>
                     <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
-                    <li class="nav-item active-nav"><a href="project.html" class="active-nav">Project</a></li>
+                    <li class="nav-item active-nav"><a href="project.html" class="active-nav">#1</a></li>
                     <li class="nav-item"><a href="#">Blog</a></li>
                     <li class="nav-item"><a href="#">About us</a></li>
                     <li class="nav-item"><a href="#">Contact</a></li>
@@ -46,7 +47,127 @@
 </section>
 <section class="projects container-fluid">
     <div class="row">
-        <div class="col-12 col-md-8 col-xl-9">
+        <div class="col-12 col-md-7 col-lg-8 col-xl-9">
+            <div class="project-gallery">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 indent" id="slider">
+                            <div id="myCarousel" class="carousel slide shadow">
+                                <ul class="carousel-inner carousel-style">
+                                    <li class="active carousel-item text-center" data-slide-number="0">
+                                        <picture>
+                                            <source srcset="img/img-portfolio/portfolio1-big.webp" type="image/webp">
+                                            <img src="img/img-portfolio/portfolio1.jpg" class="img-fluid" alt="Projets photo">
+                                        </picture>
+                                    </li>
+                                    <li class="carousel-item text-center" data-slide-number="1">
+                                        <picture>
+                                            <source srcset="img/img-portfolio/portfolio2-big.webp" type="image/webp">
+                                            <img src="img/img-portfolio/portfolio2.jpg" class="img-fluid" alt="Projets photo">
+                                        </picture>
+                                    </li>
+                                    <li class="carousel-item text-center" data-slide-number="2">
+                                        <picture>
+                                            <source srcset="img/img-portfolio/portfolio3-big.webp" type="image/webp">
+                                            <img src="img/img-portfolio/portfolio3.jpg" class="img-fluid" alt="Projets photo">
+                                        </picture>
+                                    </li>
+                                    <li class="carousel-item text-center" data-slide-number="3">
+                                        <picture>
+                                            <source srcset="img/img-portfolio/portfolio4-big.webp" type="image/webp">
+                                            <img src="img/img-portfolio/portfolio4.jpg" class="img-fluid" alt="Projets photo">
+                                        </picture>
+                                    </li>
+                                    <li class="carousel-item text-center" data-slide-number="4">
+                                        <picture>
+                                            <source srcset="img/img-portfolio/portfolio5-big.webp" type="image/webp">
+                                            <img src="img/img-portfolio/portfolio5.jpg" class="img-fluid" alt="Projets photo">
+                                        </picture>
+                                    </li>
+                                    <li class="carousel-item text-center" data-slide-number="5">
+                                        <picture>
+                                            <source srcset="img/img-portfolio/portfolio6-big.webp" type="image/webp">
+                                            <img src="img/img-portfolio/portfolio6.jpg" class="img-fluid" alt="Projets photo">
+                                        </picture>
+                                    </li>
+                                    <li class="carousel-item text-center" data-slide-number="6">
+                                        <picture>
+                                            <source srcset="img/img-portfolio/portfolio7-big.webp" type="image/webp">
+                                            <img src="img/img-portfolio/portfolio7.jpg" class="img-fluid" alt="Projets photo">
+                                        </picture>
+                                    </li>
+                                    <li class="carousel-item text-center" data-slide-number="7">
+                                        <picture>
+                                            <source srcset="img/img-portfolio/portfolio8-big.webp" type="image/webp">
+                                            <img src="img/img-portfolio/portfolio8.jpg" class="img-fluid" alt="Projets photo">
+                                        </picture>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <a class="carousel-control-prev control-type" href="#myCarousel"
+                                                   role="button"
+                                                   data-slide="prev">
+                                                    <span class="icon-left-open-big size" aria-hidden="true"></span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="carousel-control-next control-type" href="#myCarousel"
+                                                   role="button"
+                                                   data-slide="next">
+                                                    <span class="icon-right-open-big size" aria-hidden="true"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="carousel-indicators list-inline mx-auto border px-2 indicators-style">
+                                    <li class="list-inline-item active">
+                                        <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel">
+                                            <img src="img/img-portfolio/portfolio1.jpg" class="img-fluid" alt="Projets photo mini">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel">
+                                            <img src="img/img-portfolio/portfolio2.jpg" class="img-fluid" alt="Projets photo mini">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel">
+                                            <img src="img/img-portfolio/portfolio3.jpg" class="img-fluid" alt="Projets photo mini">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel">
+                                            <img src="img/img-portfolio/portfolio4.jpg" class="img-fluid" alt="Projets photo mini">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel">
+                                            <img src="img/img-portfolio/portfolio5.jpg" class="img-fluid" alt="Projets photo mini">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-5" data-slide-to="5" data-target="#myCarousel">
+                                            <img src="img/img-portfolio/portfolio6.jpg" class="img-fluid" alt="Projets photo mini">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-6" data-slide-to="6" data-target="#myCarousel">
+                                            <img src="img/img-portfolio/portfolio7.jpg" class="img-fluid" alt="Projets photo mini">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-7" data-slide-to="7" data-target="#myCarousel">
+                                            <img src="img/img-portfolio/portfolio8.jpg" class="img-fluid" alt="Projets photo mini">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="description">
             <div class="d-flex justify-content-start align-item-center text-center pb-4">
                 <h2 class="description-headline text-uppercase">Project description</h2>
@@ -77,12 +198,12 @@
             </div>
             <div class="recent-project">
                 <div class="d-flex justify-content-start align-item-center pb-4">
-                    <h2 class="recent-project-headline text-uppercase">Project description</h2>
+                    <h2 class="recent-project-headline text-uppercase">recent-project</h2>
                 </div>
                 <ul class="row">
                     <li class="col-12 col-md-4 indent p-1">
                         <a href="#" aria-label="Recent project">
-                            <img src="img/img-portfolio/portfolio8.jpg" alt="Recent project" class="img-fluid card-img">
+                            <img src="img/img-portfolio/portfolio1.jpg" alt="Recent project" class="img-fluid card-img">
                         </a>
                     </li>
                     <li class="col-12 col-md-4 indent p-1">
@@ -92,13 +213,13 @@
                     </li>
                     <li class="col-12 col-md-4 indent p-1">
                         <a href="#" aria-label="Recent project">
-                            <img src="img/img-portfolio/portfolio8.jpg" alt="Recent project" class="img-fluid card-img">
+                            <img src="img/img-portfolio/portfolio6.jpg" alt="Recent project" class="img-fluid card-img">
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="col-12 col-md-4 col-xl-3 indent">
+        <div class="col-12 col-md-5 col-lg-4 col-xl-3 indent">
             <ul>
                 <li class="sidebar-item">
                     <h2 class="text-uppercase sidebar-title">Project Details</h2>
@@ -151,41 +272,41 @@
                     <h2 class="text-uppercase sidebar-title">Popular posts</h2>
                     <ul>
                         <li class="image-list-post-one d-flex justify-content-start align-item-center text-uppercase">
-                            <div class="d-flex flex-column justify-content-between">
-                                <a href="#" class="d-block">15 Fresh Examples of Clean and Minimal Web Designs</a>
-                                <span class="like-text d-block text-right">Oct. 09, 2013
+                            <div class="row indent post-size">
+                                <a href="#" class="d-block col-12 indent">15 Fresh Examples of Clean and Minimal Web Designs</a>
+                                <span class="like-text d-block text-right col-12 indent">Oct. 09, 2013
                                     <img src="img/img-project/heart_icon.svg" alt="heart" class="pl-2">21
                                 </span>
                             </div>
                         </li>
                         <li class="image-list-post-two d-flex justify-content-start align-item-center text-uppercase">
-                            <div class="d-flex flex-column justify-content-between">
-                                <a href="#" class="d-block">Inspiring Examples of Color in Web Design</a>
-                                <span class="like-text d-block text-right">Oct. 10, 2013
+                            <div class="row indent post-size">
+                                <a href="#" class="d-block col-12 indent">Inspiring Examples of Color in Web Design</a>
+                                <span class="like-text d-block text-right col-12 indent">Oct. 10, 2013
                                     <img src="img/img-project/heart_icon.svg" alt="heart" class="pl-2">19
                                 </span>
                             </div>
                         </li>
                         <li class="image-list-post-three d-flex justify-content-start align-item-center text-uppercase">
-                            <div class="d-flex flex-column justify-content-between">
-                                <a href="#" class="d-block">17 Inspiring Examples of Parallax Scrolling Sites</a>
-                                <span class="like-text d-block text-right">Oct. 12, 2013
+                            <div class="row indent post-size">
+                                <a href="#" class="d-block col-12 indent">17 Inspiring Examples of Parallax Scrolling Sites</a>
+                                <span class="like-text d-block text-right col-12 indent">Oct. 12, 2013
                                     <img src="img/img-project/heart_icon.svg" alt="heart" class="pl-2">15
                                 </span>
                             </div>
                         </li>
                         <li class="image-list-post-four d-flex justify-content-start align-item-center text-uppercase">
-                            <div class="d-flex flex-column justify-content-between align-items-stretch">
-                                <a href="#" class="d-block text-left">15 Websites with Beautiful Typography</a>
-                                <span class="like-text d-flex justify-content-end align-item-end">Oct. 03, 2013
+                            <div class="row indent post-size">
+                                <a href="#" class="d-block col-12 indent">15 Websites with Beautiful Typography</a>
+                                <span class="like-text d-block text-right col-12 indent">Oct. 03, 2013
                                     <img src="img/img-project/heart_icon.svg" alt="heart" class="pl-2">13
                                 </span>
                             </div>
                         </li>
                         <li class="image-list-post-five d-flex justify-content-start align-item-center text-uppercase">
-                            <div class="d-flex flex-column justify-content-between">
-                                <a href="#" class="d-block">20 Resources for Beginner Designers & Developers</a>
-                                <span class="like-text d-block text-right">Oct. 10, 2013
+                            <div class="row indent post-size">
+                                <a href="#" class="d-block col-12 indent">20 Resources for Beginner Designers & Developers</a>
+                                <span class="like-text d-block text-right col-12 indent">Oct. 10, 2013
                                     <img src="img/img-project/heart_icon.svg" alt="heart" class="pl-2">7
                                 </span>
                             </div>
@@ -328,7 +449,7 @@
                         <div>
                             <p class="footer-text middle">
                                 <span class="d-block">Check Out Dtbaker's <a class="twitter-link" href="#">@Arduino</a> Sales Notification <a class="twitter-link" href="#"> #System</a></span>
-                                <span class="d-block"><a href="http://t.co/ WBFKIWHJ" class="twitter">http://t.co/ WBFKIWHJ</a></span>
+                                <span class="d-block"><a href="#" class="twitter">http://t.co/ WBFKIWHJ</a></span>
                             </p>
                             <p class="days-ago footer-text">3 days ago</p>
                         </div>
@@ -337,7 +458,7 @@
                         <div>
                             <p class="footer-text middle">
                                 <span class="d-block">Community Superstar Winner – <a class="twitter-link" href="#">#OrganicBeeMedia</a></span>
-                                <span class="d-block"><a href="http://t.co/2Fs1nnMj" class="twitter">http://t.co/2Fs1nnMj</a></span>
+                                <span class="d-block"><a href="#" class="twitter">http://t.co/2Fs1nnMj</a></span>
                             </p>
                             <p class="days-ago footer-text">3 days ago</p>
                         </div>
@@ -346,7 +467,7 @@
                         <div>
                             <p class="footer-text middle">
                                 <span class="d-block">Clean <a class="twitter-link" href="#">#Websites</a> Designs for Your <a class="twitter-link" href="#">#Inspiration</a></span>
-                                <span class="d-block"><a href="http://t.co/ SnRKu3HJ" class="twitter">http://t.co/ SnRKu3HJ</a></span>
+                                <span class="d-block"><a href="#" class="twitter">http://t.co/ SnRKu3HJ</a></span>
                             </p>
                             <p class="days-ago footer-text">5 days ago</p>
                         </div>
@@ -355,7 +476,7 @@
                         <div>
                             <p class="footer-text middle">
                                 <span class="d-block">Cute Online <a class="twitter-link" href="#">#Shops</a></span>
-                                <span class="d-block"><a href="http://t.co/ 1PoQN3bJ" class="twitter">http://t.co/ 1PoQN3bJ</a></span>
+                                <span class="d-block"><a href="#" class="twitter">http://t.co/ 1PoQN3bJ</a></span>
                             </p>
                             <p class="days-ago footer-text">6 days ago</p>
                         </div>
@@ -364,7 +485,7 @@
                         <div>
                             <p class="footer-text middle">
                                 <span class="d-block">Download 40 vector <a class="twitter-link" href="#">#icons</a> package for <a class="twitter-link text-capitalize" href="#">#Free</a></span>
-                                <span class="d-block"><a href="http://t.co/2Fp5GLqn" class="twitter">http://t.co/2Fp5GLqn</a></span>
+                                <span class="d-block"><a href="#" class="twitter">http://t.co/2Fp5GLqn</a></span>
                             </p>
                             <p class="days-ago footer-text">6 days ago</p>
                         </div>
