@@ -46,12 +46,14 @@ header ul li {
     left: initial;
     width: initial;
     margin-left: initial; }
+    .projects .project-gallery #myCarousel .carousel-indicators .active {
+      background-color: #FFEA00; }
   .projects .project-gallery #myCarousel .carousel-indicators > li {
     width: initial;
     height: initial;
     text-indent: initial; }
   .projects .project-gallery #myCarousel .carousel-indicators > li.active img {
-    filter: sepia(1); }
+    opacity: 0.7; }
   .projects .project-gallery #myCarousel .carousel-style {
     position: relative;
     background-color: #424146; }
@@ -70,6 +72,10 @@ header ul li {
     .projects .project-gallery #myCarousel .control-type:hover {
       -webkit-filter: invert(0.8);
       filter: invert(0.8); }
+  .projects .project-gallery #myCarousel .fullscreen-icon {
+    position: absolute;
+    top: 2%;
+    right: 1%; }
   .projects .description {
     padding: 5%; }
     .projects .description .description-headline {
@@ -279,6 +285,9 @@ header ul li {
     padding: 2% 0; }
     .section-headline h2 .headline {
       font-size: 1em; }
+
+  .projects .project-gallery {
+    padding-right: 15px; }
 
   .footer .middle {
     line-height: 1; }
