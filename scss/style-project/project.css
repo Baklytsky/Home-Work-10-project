@@ -38,6 +38,38 @@ header ul li {
 .projects {
   padding-top: 5%;
   background-color: #F6F6F6; }
+  .projects .project-gallery #myCarousel .list-inline {
+    white-space: nowrap;
+    overflow-x: auto; }
+  .projects .project-gallery #myCarousel .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-left: initial; }
+  .projects .project-gallery #myCarousel .carousel-indicators > li {
+    width: initial;
+    height: initial;
+    text-indent: initial; }
+  .projects .project-gallery #myCarousel .carousel-indicators > li.active img {
+    filter: sepia(1); }
+  .projects .project-gallery #myCarousel .carousel-style {
+    position: relative;
+    background-color: #424146; }
+  .projects .project-gallery #myCarousel .indicators-style {
+    background-color: #000; }
+  .projects .project-gallery #myCarousel .control-type {
+    width: 5%;
+    height: 20%;
+    opacity: 1;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    overflow: hidden; }
+    .projects .project-gallery #myCarousel .control-type .size {
+      font-size: 2em; }
+    .projects .project-gallery #myCarousel .control-type:hover {
+      -webkit-filter: invert(0.8);
+      filter: invert(0.8); }
   .projects .description {
     padding: 5%; }
     .projects .description .description-headline {
@@ -91,6 +123,8 @@ header ul li {
   color: #FFEA00; }
 .projects ul li {
   margin-bottom: 10px; }
+.projects ul .post-size {
+  max-width: 365px; }
 .projects ul .image-list-post-one:before {
   content: url("../../img/img-project/popular_post_img_1.png");
   display: flex;
